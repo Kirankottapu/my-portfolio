@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/portfolio/', // ✅ This tells Vite to serve from the correct subpath
+  base: 'my-portfolio/',
   plugins: [react(), tailwindcss()],
 })

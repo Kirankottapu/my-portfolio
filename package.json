@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kiran-kumar-kottapu.github.io/portfolio",
+  "homepage": "https://kirankottapu.github.io/my-portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
