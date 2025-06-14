@@ -78,7 +78,6 @@ const ProjectsSection = () => {
             image={SIH}
             description="We developed and showcased the EnviroVista project through a dedicated website, and also built another project that highlights the collaboration between college alumni and students in bringing innovative ideas to life."
             tech={["HTML-CSS, ", "JAVASCRIPT, ", "DJANGO, ", "PYTHON, ", "UIUX "]}
-            certificate="/certificates/sih.pdf"
           />
           <ProjectCard
             title="GDG Vizag"
