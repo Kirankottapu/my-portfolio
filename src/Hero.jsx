@@ -50,7 +50,7 @@ const Hero = () => {
               View Projects
             </a>
             <a
-              href="https://raw.githubusercontent.com/YourUsername/YourRepoName/main/KiranKottapuResume.pdf"
+              href="/KiranKottapuResume.pdf"
               download
               className="bg-black text-blue-500 font-bold px-8 py-3 rounded-full shadow-lg hover:scale-105 transform transition duration-300 ml-4 border border-white"
             >
