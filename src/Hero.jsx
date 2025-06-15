@@ -1,6 +1,7 @@
 import React from 'react';
 import ProfilePic from './assets/kirank.jpg';
 import { Typewriter } from 'react-simple-typewriter';
+import { AiOutlineDownload } from 'react-icons/ai';
 
 const Hero = () => {
   return (
@@ -49,11 +50,13 @@ const Hero = () => {
             >
               View Projects
             </a>
+
             <a
               href="/KiranKottapuResume.pdf"
               download
-              className="bg-black text-blue-500 font-bold px-8 py-3 rounded-full shadow-lg hover:scale-105 transform transition duration-300 ml-4 border border-white"
+              className="bg-black text-white font-bold px-8 py-3 rounded-full shadow-lg border border-white hover:scale-105 transform transition duration-300 flex items-center"
             >
+              <AiOutlineDownload className="mr-2 text-xl" />
               Download Resume
             </a>
           </div>
